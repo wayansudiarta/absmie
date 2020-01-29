@@ -1,0 +1,27 @@
+ABSMIE
+
+absmie is a program for computing scattering properties 
+of a spherical particle in an absorbing host medium.
+
+compile:
+$ make
+
+or manually by 
+$ gcc -O -o absmie.exe absmie.c complex.c nrutil.c
+
+run:
+$./absmie.exe > output
+
+input:
+please read and modify mie.dat for input data.
+
+output:
+mie.out
+or output
+
+
+I hope this program is useful. 
+If you use this program, please let me know.
+
+I Wayan Sudiarta
+sudiarta@dal.ca  

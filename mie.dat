@@ -1,0 +1,10 @@
+10.0
+1.5  0.1
+1.0  0.1
+
+
+Note :
+data #1 is size parameter 2Pi radius/lambda(in vacuum)
+data #2 is real and imaginary part of complex refractive index of spherical particle
+data #3 is complex refractive index of host medium
+
