@@ -1,5 +1,13 @@
 /* absmie.c
 
+New Address: 
+I Wayan Sudiarta, 
+Fisika, Fakultas MIPA
+Universitas Mataram, NTB, Indonesia 83127
+wayan.sudiarta@unram.ac.id
+
+------------------------original code-----------------------------
+
 This is a program for Mie scattering in absorbing medium.
 
 -------------------------------------------------------------------
