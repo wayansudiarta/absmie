@@ -38,6 +38,7 @@ I.W. Sudiarta, " Effective medium approximation for light scattering of heteroge
 
 #include <math.h>
 #include <stdio.h>
+#include <stdlib.h>
 #include "complex.h"
 #include "nrutil.h"
 
@@ -83,7 +84,7 @@ int main(void)
   printf(" msphere        = %f  %f \n",sphereref.r,sphereref.i);
   printf(" mmed           = %f  %f \n",medref.r,medref.i);
 
-  printf("\n Qext, Qsca, Qabs, g, Ii, %f  %f  %f  %f  %f\n\n",qext,qsca,qabs,gg,ii);
+  printf("\n Qext, Qsca, Qabs, g, Ii\n %f,  %f,  %f,  %f,  %f\n\n",qext,qsca,qabs,gg,ii);
   printf("\n Angle......phase \n");
   for(i=0;i<nangel;i++){
       printf("%f %f \n",i*dangle, phase[i]);
